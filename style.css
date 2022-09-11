@@ -1,0 +1,172 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header,
+.hero,
+footer {
+    background-color: #1F2937;
+    color: #f9faf8;
+    padding: 5px 5% 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: -100px;
+}
+
+header p {
+    font-size: 24px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1.5em;
+}
+
+a {
+    text-decoration: none;
+    color: #f9faf8;
+}
+
+a:hover {
+    color: #3882f6;
+    font-weight: bolder;
+}
+
+button {
+    font-size: 1em;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: #f9faf8;
+    padding: 8px 25px;
+    flex-shrink: 0;
+}
+
+.hero {
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.hero button {
+    border: #3882f6 solid 2px;
+}
+
+.hero button:hover {
+    background-color: #1F2937;
+    border: #f9faf8 solid 2px;
+}
+
+.main-text {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.placeholder {
+    background-color: grey;
+    width: 40%;
+    height: 30%;
+    flex-shrink: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    text-align: center;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-container {
+    display: flex;
+    justify-content: center;
+    gap: 3em;
+    flex-wrap: wrap;
+}
+
+.info-box {
+    width: 150px;
+}
+
+.information img {
+    border: #3882f6 solid 3px;
+    border-radius: 10px;
+    width: 150px;
+    height: 150px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 5em 10%;
+    
+    color: #1f2937;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+}
+
+.quote-author {
+    text-align: end;
+    font-weight: 900;
+}
+
+.container {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subscribe {
+    background-color: #3882f6;
+    width: 70%;
+    border-radius: 10px;
+    padding: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 3em;
+    color: #e5e7eb;
+}
+
+.left h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.subscribe button {
+    
+    border: white solid 2px;
+}
+
+.subscribe button:hover {
+    background-color: #f9faf8;
+    color: #3882f6;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
